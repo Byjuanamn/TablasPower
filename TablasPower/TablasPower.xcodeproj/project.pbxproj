@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D434E2D192E14FD00D66D91 /* JAMCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D434E2C192E14FD00D66D91 /* JAMCustomCell.m */; };
+		5D434E2F192E157300D66D91 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D434E2E192E157300D66D91 /* CustomCell.xib */; };
+		5D434E32192E1F6800D66D91 /* OtraCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D434E31192E1F6800D66D91 /* OtraCustomCell.m */; };
+		5DACB201192DFDCC00DF9973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB200192DFDCC00DF9973 /* Foundation.framework */; };
+		5DACB203192DFDCC00DF9973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB202192DFDCC00DF9973 /* CoreGraphics.framework */; };
+		5DACB205192DFDCC00DF9973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB204192DFDCC00DF9973 /* UIKit.framework */; };
+		5DACB20B192DFDCC00DF9973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DACB209192DFDCC00DF9973 /* InfoPlist.strings */; };
+		5DACB20D192DFDCC00DF9973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB20C192DFDCC00DF9973 /* main.m */; };
+		5DACB211192DFDCC00DF9973 /* JAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB210192DFDCC00DF9973 /* JAMAppDelegate.m */; };
+		5DACB213192DFDCC00DF9973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DACB212192DFDCC00DF9973 /* Images.xcassets */; };
+		5DACB21A192DFDCC00DF9973 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB219192DFDCC00DF9973 /* XCTest.framework */; };
+		5DACB21B192DFDCC00DF9973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB200192DFDCC00DF9973 /* Foundation.framework */; };
+		5DACB21C192DFDCC00DF9973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DACB204192DFDCC00DF9973 /* UIKit.framework */; };
+		5DACB224192DFDCC00DF9973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DACB222192DFDCC00DF9973 /* InfoPlist.strings */; };
+		5DACB226192DFDCC00DF9973 /* TablasPowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB225192DFDCC00DF9973 /* TablasPowerTests.m */; };
+		5DACB231192DFE2F00DF9973 /* Vino.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB230192DFE2F00DF9973 /* Vino.m */; };
+		5DACB234192DFF9200DF9973 /* JAMViewVinos.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DACB233192DFF9200DF9973 /* JAMViewVinos.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DACB21D192DFDCC00DF9973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DACB1F5192DFDCC00DF9973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DACB1FC192DFDCC00DF9973;
+			remoteInfo = TablasPower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D434E2B192E14FD00D66D91 /* JAMCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMCustomCell.h; sourceTree = "<group>"; };
+		5D434E2C192E14FD00D66D91 /* JAMCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMCustomCell.m; sourceTree = "<group>"; };
+		5D434E2E192E157300D66D91 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		5D434E30192E1F6800D66D91 /* OtraCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtraCustomCell.h; sourceTree = "<group>"; };
+		5D434E31192E1F6800D66D91 /* OtraCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtraCustomCell.m; sourceTree = "<group>"; };
+		5DACB1FD192DFDCC00DF9973 /* TablasPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablasPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DACB200192DFDCC00DF9973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DACB202192DFDCC00DF9973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DACB204192DFDCC00DF9973 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DACB208192DFDCC00DF9973 /* TablasPower-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TablasPower-Info.plist"; sourceTree = "<group>"; };
+		5DACB20A192DFDCC00DF9973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DACB20C192DFDCC00DF9973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DACB20E192DFDCC00DF9973 /* TablasPower-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TablasPower-Prefix.pch"; sourceTree = "<group>"; };
+		5DACB20F192DFDCC00DF9973 /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
+		5DACB210192DFDCC00DF9973 /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
+		5DACB212192DFDCC00DF9973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DACB218192DFDCC00DF9973 /* TablasPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablasPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DACB219192DFDCC00DF9973 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5DACB221192DFDCC00DF9973 /* TablasPowerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TablasPowerTests-Info.plist"; sourceTree = "<group>"; };
+		5DACB223192DFDCC00DF9973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DACB225192DFDCC00DF9973 /* TablasPowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablasPowerTests.m; sourceTree = "<group>"; };
+		5DACB22F192DFE2F00DF9973 /* Vino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vino.h; sourceTree = "<group>"; };
+		5DACB230192DFE2F00DF9973 /* Vino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vino.m; sourceTree = "<group>"; };
+		5DACB232192DFF9200DF9973 /* JAMViewVinos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMViewVinos.h; sourceTree = "<group>"; };
+		5DACB233192DFF9200DF9973 /* JAMViewVinos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMViewVinos.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DACB1FA192DFDCC00DF9973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DACB203192DFDCC00DF9973 /* CoreGraphics.framework in Frameworks */,
+				5DACB205192DFDCC00DF9973 /* UIKit.framework in Frameworks */,
+				5DACB201192DFDCC00DF9973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DACB215192DFDCC00DF9973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DACB21A192DFDCC00DF9973 /* XCTest.framework in Frameworks */,
+				5DACB21C192DFDCC00DF9973 /* UIKit.framework in Frameworks */,
+				5DACB21B192DFDCC00DF9973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DACB1F4192DFDCC00DF9973 = {
+			isa = PBXGroup;
+			children = (
+				5DACB206192DFDCC00DF9973 /* TablasPower */,
+				5DACB21F192DFDCC00DF9973 /* TablasPowerTests */,
+				5DACB1FF192DFDCC00DF9973 /* Frameworks */,
+				5DACB1FE192DFDCC00DF9973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DACB1FE192DFDCC00DF9973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB1FD192DFDCC00DF9973 /* TablasPower.app */,
+				5DACB218192DFDCC00DF9973 /* TablasPowerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DACB1FF192DFDCC00DF9973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB200192DFDCC00DF9973 /* Foundation.framework */,
+				5DACB202192DFDCC00DF9973 /* CoreGraphics.framework */,
+				5DACB204192DFDCC00DF9973 /* UIKit.framework */,
+				5DACB219192DFDCC00DF9973 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DACB206192DFDCC00DF9973 /* TablasPower */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB20F192DFDCC00DF9973 /* JAMAppDelegate.h */,
+				5DACB210192DFDCC00DF9973 /* JAMAppDelegate.m */,
+				5DACB212192DFDCC00DF9973 /* Images.xcassets */,
+				5DACB207192DFDCC00DF9973 /* Supporting Files */,
+				5DACB22F192DFE2F00DF9973 /* Vino.h */,
+				5DACB230192DFE2F00DF9973 /* Vino.m */,
+				5DACB232192DFF9200DF9973 /* JAMViewVinos.h */,
+				5DACB233192DFF9200DF9973 /* JAMViewVinos.m */,
+				5D434E2E192E157300D66D91 /* CustomCell.xib */,
+				5D434E2B192E14FD00D66D91 /* JAMCustomCell.h */,
+				5D434E2C192E14FD00D66D91 /* JAMCustomCell.m */,
+				5D434E30192E1F6800D66D91 /* OtraCustomCell.h */,
+				5D434E31192E1F6800D66D91 /* OtraCustomCell.m */,
+			);
+			path = TablasPower;
+			sourceTree = "<group>";
+		};
+		5DACB207192DFDCC00DF9973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB208192DFDCC00DF9973 /* TablasPower-Info.plist */,
+				5DACB209192DFDCC00DF9973 /* InfoPlist.strings */,
+				5DACB20C192DFDCC00DF9973 /* main.m */,
+				5DACB20E192DFDCC00DF9973 /* TablasPower-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DACB21F192DFDCC00DF9973 /* TablasPowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB225192DFDCC00DF9973 /* TablasPowerTests.m */,
+				5DACB220192DFDCC00DF9973 /* Supporting Files */,
+			);
+			path = TablasPowerTests;
+			sourceTree = "<group>";
+		};
+		5DACB220192DFDCC00DF9973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DACB221192DFDCC00DF9973 /* TablasPowerTests-Info.plist */,
+				5DACB222192DFDCC00DF9973 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DACB1FC192DFDCC00DF9973 /* TablasPower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DACB229192DFDCC00DF9973 /* Build configuration list for PBXNativeTarget "TablasPower" */;
+			buildPhases = (
+				5DACB1F9192DFDCC00DF9973 /* Sources */,
+				5DACB1FA192DFDCC00DF9973 /* Frameworks */,
+				5DACB1FB192DFDCC00DF9973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TablasPower;
+			productName = TablasPower;
+			productReference = 5DACB1FD192DFDCC00DF9973 /* TablasPower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DACB217192DFDCC00DF9973 /* TablasPowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DACB22C192DFDCC00DF9973 /* Build configuration list for PBXNativeTarget "TablasPowerTests" */;
+			buildPhases = (
+				5DACB214192DFDCC00DF9973 /* Sources */,
+				5DACB215192DFDCC00DF9973 /* Frameworks */,
+				5DACB216192DFDCC00DF9973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DACB21E192DFDCC00DF9973 /* PBXTargetDependency */,
+			);
+			name = TablasPowerTests;
+			productName = TablasPowerTests;
+			productReference = 5DACB218192DFDCC00DF9973 /* TablasPowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DACB1F5192DFDCC00DF9973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cloudonmobile;
+				TargetAttributes = {
+					5DACB217192DFDCC00DF9973 = {
+						TestTargetID = 5DACB1FC192DFDCC00DF9973;
+					};
+				};
+			};
+			buildConfigurationList = 5DACB1F8192DFDCC00DF9973 /* Build configuration list for PBXProject "TablasPower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DACB1F4192DFDCC00DF9973;
+			productRefGroup = 5DACB1FE192DFDCC00DF9973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DACB1FC192DFDCC00DF9973 /* TablasPower */,
+				5DACB217192DFDCC00DF9973 /* TablasPowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DACB1FB192DFDCC00DF9973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D434E2F192E157300D66D91 /* CustomCell.xib in Resources */,
+				5DACB20B192DFDCC00DF9973 /* InfoPlist.strings in Resources */,
+				5DACB213192DFDCC00DF9973 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DACB216192DFDCC00DF9973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DACB224192DFDCC00DF9973 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DACB1F9192DFDCC00DF9973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D434E32192E1F6800D66D91 /* OtraCustomCell.m in Sources */,
+				5DACB20D192DFDCC00DF9973 /* main.m in Sources */,
+				5DACB231192DFE2F00DF9973 /* Vino.m in Sources */,
+				5DACB211192DFDCC00DF9973 /* JAMAppDelegate.m in Sources */,
+				5D434E2D192E14FD00D66D91 /* JAMCustomCell.m in Sources */,
+				5DACB234192DFF9200DF9973 /* JAMViewVinos.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DACB214192DFDCC00DF9973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DACB226192DFDCC00DF9973 /* TablasPowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DACB21E192DFDCC00DF9973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DACB1FC192DFDCC00DF9973 /* TablasPower */;
+			targetProxy = 5DACB21D192DFDCC00DF9973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DACB209192DFDCC00DF9973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DACB20A192DFDCC00DF9973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DACB222192DFDCC00DF9973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DACB223192DFDCC00DF9973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DACB227192DFDCC00DF9973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DACB228192DFDCC00DF9973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DACB22A192DFDCC00DF9973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablasPower/TablasPower-Prefix.pch";
+				INFOPLIST_FILE = "TablasPower/TablasPower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DACB22B192DFDCC00DF9973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablasPower/TablasPower-Prefix.pch";
+				INFOPLIST_FILE = "TablasPower/TablasPower-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DACB22D192DFDCC00DF9973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TablasPower.app/TablasPower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablasPower/TablasPower-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TablasPowerTests/TablasPowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5DACB22E192DFDCC00DF9973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TablasPower.app/TablasPower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablasPower/TablasPower-Prefix.pch";
+				INFOPLIST_FILE = "TablasPowerTests/TablasPowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DACB1F8192DFDCC00DF9973 /* Build configuration list for PBXProject "TablasPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DACB227192DFDCC00DF9973 /* Debug */,
+				5DACB228192DFDCC00DF9973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DACB229192DFDCC00DF9973 /* Build configuration list for PBXNativeTarget "TablasPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DACB22A192DFDCC00DF9973 /* Debug */,
+				5DACB22B192DFDCC00DF9973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DACB22C192DFDCC00DF9973 /* Build configuration list for PBXNativeTarget "TablasPowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DACB22D192DFDCC00DF9973 /* Debug */,
+				5DACB22E192DFDCC00DF9973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DACB1F5192DFDCC00DF9973 /* Project object */;
+}
